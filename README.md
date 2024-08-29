@@ -25,7 +25,7 @@ This project is a Power Management System that utilizes the ESP8266 microcontrol
 
 ## Circuit Diagram
 
-![Circuit Diagram](./Diagram/Circuit Diagram.jpg)
+![Circuit Diagram](.Diagram/Circuit Diagram.jpg)
 
 ## Installation Guide for ESP8266 Core in Arduino IDE
 
@@ -52,13 +52,7 @@ To use the ESP8266 with Arduino IDE, you'll need to install the necessary core f
 
 For more detailed instructions or troubleshooting, you can refer to the full guide on [Instructables](https://www.instructables.com/Installing-ESP8266-and-ESP32-Core-in-Arduino-Windo/).
 
-### Prerequisites
-
-- **Arduino IDE**: To upload the code to the ESP8266 microcontroller.
-- **ESP8266 Board Package**: Install it via Arduino IDE Board Manager.
-
 ### Cloning the Repository
 
 ```bash
-git clone https://github.com/yourusername/repository-name.git
-cd repository-name
+git clone https://github.com/John-Bernardo-Laboratory/ESP8266-Automated-Outlet-Scheduler.git
