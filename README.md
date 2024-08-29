@@ -1,4 +1,4 @@
-# Power Management System: ESP8266-Based Extension Outlet Scheduler
+# ESP8266-Based Extension Outlet Scheduler with Time Adjustments and Real-Time Monitoring via Local Web Server
 
 ## Project Overview
 
@@ -25,9 +25,7 @@ This project is a Power Management System that utilizes the ESP8266 microcontrol
 
 ## Circuit Diagram
 
-![Circuit Diagram](link-to-your-circuit-diagram-image)
-
-*(Replace the above link with the actual link to your circuit diagram image)*
+![Circuit Diagram](./Diagram/Circuit Diagram.jpg)
 
 ## Installation Guide for ESP8266 Core in Arduino IDE
 
@@ -53,7 +51,6 @@ To use the ESP8266 with Arduino IDE, you'll need to install the necessary core f
 3. Your ESP8266 is now ready to be programmed using Arduino IDE!
 
 For more detailed instructions or troubleshooting, you can refer to the full guide on [Instructables](https://www.instructables.com/Installing-ESP8266-and-ESP32-Core-in-Arduino-Windo/).
-
 
 ### Prerequisites
 
