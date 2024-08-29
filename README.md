@@ -25,47 +25,58 @@ This project is a Power Management System that utilizes the ESP8266 microcontrol
 
 ## Circuit Diagram
 
-![Circuit Diagram](./Diagram/Circuit_Diagram.jpg)
+![Circuit Diagram](.Diagram/Circuit Diagram.jpg)
 
-## Installation Guide for ESP8266 Core in Arduino IDE
+## Installation Guide for ESP8266 Core and Required Libraries in Arduino IDE
 
-To use the ESP8266 with Arduino IDE, you'll need to install the necessary core files. Follow these steps to set up your development environment.
+To successfully compile and run the code for this project, you'll need to install the ESP8266 core as well as several libraries in the Arduino IDE. Follow these steps to set up your development environment.
 
-### Step 1: Open Arduino IDE & Preferences
+### Step 1: Install ESP8266 Core in Arduino IDE
 
-1. Make sure you have the **Arduino IDE** installed on your computer. If not, download it from the [official Arduino website](https://www.arduino.cc/en/software).
-2. Start the Arduino IDE.
-3. Go to **File > Preferences** to open the Preferences window.
-4. In the "Additional Board Manager URLs" field, paste the following URL: http://arduino.esp8266.com/stable/package_esp8266com_index.json
+1. **Open Arduino IDE**:
+   - Ensure you have the Arduino IDE installed on your computer. If not, download it from the [official Arduino website](https://www.arduino.cc/en/software).
 
+2. **Add ESP8266 Board URL**:
+   - Open Arduino IDE and go to **File > Preferences**.
+   - In the "Additional Board Manager URLs" field, paste the following URL:
+     ```
+     http://arduino.esp8266.com/stable/package_esp8266com_index.json
+     ```
+   - Click "OK" to save your changes.
 
-### Step 2: Open Board Manager & Install Package
+3. **Install the ESP8266 Core**:
+   - Go to **Tools > Board: > Boards Manager...**.
+   - In the Boards Manager window, scroll down to find the **ESP8266** platform.
+   - Select the latest version and click the **Install** button.
 
-1. Go to **Tools > Board: > Boards Manager...**
-2. In the Boards Manager window, scroll down to find the **ESP8266** platform.
-3. Click on the drop-down, select the version you want, and then click the **Install** button.
+4. **Finalizing**:
+   - After installation, restart the Arduino IDE.
+   - Go to **Tools > Board:** and select **NodeMCU 1.0 (ESP-12E Module)** or another ESP8266 board that matches your hardware.
 
-### Step 3: Finalizing
+### Step 2: Install Required Libraries
 
-1. After the installation is complete, restart the Arduino IDE.
-2. Go to **Tools > Board:** and select **NodeMCU 1.0 (ESP-12E Module)** or another ESP8266 board that matches your hardware.
-3. Your ESP8266 is now ready to be programmed using Arduino IDE!
+1. **Open the Arduino Library Manager**:
+   - Go to **Sketch > Include Library > Manage Libraries...**.
 
-## Installing Required Libraries
+2. **Install Libraries via Library Manager**:
+   - **Adafruit SSD1306**: 
+     - Search for **Adafruit SSD1306** and install it.
+   - **Adafruit GFX**:
+     - Search for **Adafruit GFX** and install it.
+   - **ArduinoJson**:
+     - Search for **ArduinoJson** and install the latest version (version 6.x.x).
+   - **ESP8266WebServer**:
+     - Search for **ESP8266WebServer** and install it.
+   - **PZEM004T**:
+     - Search for ***PZEM004T** and install it.
 
-### 1. Open Arduino IDE
+### Step 3: Upload the Code
 
-1. Start the Arduino IDE.
+1. Once all libraries are installed and the code compiles without errors, connect your ESP8266 board to your computer via USB.
+2. Select the correct board and port in **Tools > Board** and **Tools > Port**.
+3. Click the **Upload** button to upload the code to your ESP8266.
 
-### 2. Install Libraries via Library Manager
-
-1. **Go to Sketch > Include Library > Manage Libraries...**
-- Search for **Adafruit SSD1306** and install it.
-- To install the library for **PZEM004T**, use the .zip file included in the repository:
-  - Navigate to **Sketch > Include Library > Add .ZIP Library...**
-  - Select the `PZEM004Tv30.zip` file from the repository and install it.
-
-2. **Compile the Code**: Click on the **Verify** button in the Arduino IDE to ensure that all libraries are correctly installed and that there are no errors.
+By following these steps, your development environment will be ready to compile and run the Power Management System project. If you encounter any issues during installation, refer to the library documentation or seek support.
 
 ## How to Use
 
@@ -131,6 +142,5 @@ By following these instructions, you can effectively control and monitor your ho
 ## Cloning the Repository
 
 ```bash
-git clone https://github.com/yourusername/repository-name.git
-cd repository-name
+git clone https://github.com/John-Bernardo-Laboratory/ESP8266-Automated-Outlet-Scheduler.git
 
