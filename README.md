@@ -25,7 +25,7 @@ This project is a Power Management System that utilizes the ESP8266 microcontrol
 
 ## Circuit Diagram
 
-![Circuit Diagram](./Diagram/Circuit%Diagram.jpg)
+![Circuit Diagram](./Diagram/Circuit Diagram.jpg)
 
 ## Installation Guide for ESP8266 Core and Required Libraries in Arduino IDE
 
