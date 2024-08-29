@@ -25,7 +25,7 @@ This project is a Power Management System that utilizes the ESP8266 microcontrol
 
 ## Circuit Diagram
 
-![Circuit Diagram](.Diagram/Circuit Diagram.jpg)
+![Circuit Diagram](./Diagram/Circuit%Diagram.jpg)
 
 ## Installation Guide for ESP8266 Core and Required Libraries in Arduino IDE
 
@@ -127,15 +127,16 @@ By following these steps, your development environment will be ready to compile 
 - You can turn an appliance off manually without affecting the set schedules.
 
 ### 7. Troubleshooting
-
 - **No Power to the Device**:
-- Check that the 220V to 5V DC converter is functioning correctly.
-- Ensure the power plug is securely connected.
+  - Check that the 220V to 5V DC converter is functioning correctly.
+  - Ensure the power plug is securely connected.
+
 - **Cannot Access Web Interface**:
-- Verify the ESP8266 is connected to the correct Wi-Fi network.
-- Ensure your device is on the same network as the ESP8266.
+  - Verify the ESP8266 is connected to the correct Wi-Fi network.
+  - Ensure your device is on the same network as the ESP8266.
+
 - **Incorrect Time or Date**:
-- Reboot the device to sync the correct time with the server.
+  - Reboot the device to sync the correct time with the server.
 
 By following these instructions, you can effectively control and monitor your home appliances using the Power Management System. If you encounter any issues, please refer to the troubleshooting section or contact us for support.
 
