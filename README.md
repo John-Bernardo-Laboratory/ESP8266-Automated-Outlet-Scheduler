@@ -140,8 +140,6 @@ By following these steps, your development environment will be ready to compile 
 
 By following these instructions, you can effectively control and monitor your home appliances using the Power Management System. If you encounter any issues, please refer to the troubleshooting section or contact us for support.
 
-## Cloning the Repository
-
-```bash
-git clone https://github.com/John-Bernardo-Laboratory/ESP8266-Automated-Outlet-Scheduler.git
+## License
+This project is licensed under the Apache License 2.0 - see the [LICENSE](LICENSE) file for details.
 
