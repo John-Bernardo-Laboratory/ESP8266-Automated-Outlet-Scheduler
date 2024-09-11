@@ -39,6 +39,7 @@ To successfully compile and run the code for this project, you'll need to instal
 2. **Add ESP8266 Board URL**:
    - Open Arduino IDE and go to **File > Preferences**.
    - In the "Additional Board Manager URLs" field, paste the following URL:
+     
      ```
      http://arduino.esp8266.com/stable/package_esp8266com_index.json
      ```
